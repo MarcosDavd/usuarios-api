@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "refresh_tokens")
-@Data
+@Data // funcionalidad de lombok que permite generar getters y settes automaticamente
 @NoArgsConstructor
 public class RefreshToken {
 
